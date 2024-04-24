@@ -13,7 +13,7 @@ const About = () => {
 
   return (
     <section className="p-4 w-full h-fit grid grid-cols-1 md:grid-cols-2 place-items-center">
-      <div className="relative flex p-2 w-[100%] pt-20  md:justify-center md:items-center h-screen">
+      <div data-aos="fade-up" className="relative flex p-2 w-[100%] pt-20  md:justify-center md:items-center h-screen">
         <div className=" absolute top-28 right-40 md:right-28 sm:right-[4rem]     ">
           <img
             src={aboutImg2}
@@ -32,7 +32,7 @@ const About = () => {
           />
         </div>
       </div>
-      <div className=" text-secondary flex flex-col justify-center gap-8  p-2 w-full h-full ">
+      <div data-aos="fade-right" className=" text-secondary flex flex-col justify-center gap-8  p-2 w-full h-full ">
         <div className="md:w-[75%] flex flex-col gap-8">
           <h3 className="text-primary uppercase font-semibold font-DmSans">
             WE SPECIALISE IN THE TRANSPORTATION
