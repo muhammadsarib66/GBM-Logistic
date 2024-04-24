@@ -4,7 +4,6 @@ import "slick-carousel/slick/slick-theme.css";
 import chevrons from './assets/chevrons.svg'
 
 import loader from "./assets/truck.gif"
-const MylazyCOmponent = React.lazy(()=>import("./MyLazyComponent"))
 const Hero = React.lazy(()=>import("./screens/Hero"))
 const About = React.lazy(()=>import("./screens/About"))
 // const SecondComponent = React.lazy(()=>import("./SecondComponent"))
