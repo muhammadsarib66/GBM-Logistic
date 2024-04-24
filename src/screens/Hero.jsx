@@ -58,7 +58,7 @@ const Hero = () => {
             ></div>
             <div
               data-aos="fade-up"
-              className="absolute top-0 w-[90%] md:w-[80%] lg:max-w-[40%] h-screen  text-white  flex flex-col gap-4 p-4 justify-center"
+              className="absolute top-0 w-[96%] md:w-[80%] lg:max-w-[40%] h-screen  text-white  flex flex-col gap-4 p-4 justify-center"
             >
               <h3
                 data-aos="fade-up"
@@ -68,7 +68,7 @@ const Hero = () => {
               </h3>
               <h1
                 data-aos="fade-up"
-                className=" font-bold text-4xl md:text-6xl font-Outfit tracking-normal leading-tight"
+                className=" font-bold text-4xl md:text-6xl font-Outfit md:tracking-normal leading-tight"
               >
                 {item?.heading}
               </h1>
@@ -90,7 +90,7 @@ const Hero = () => {
                   </div>
                   <div>
                     <p> Call us Now</p>
-                    <p className="font-bold text-2xl"> +92 345023218</p>
+                    <p className="font-bold text-lg md:text-2xl"> +92 345023218</p>
                   </div>
                 </div>
               </div>
