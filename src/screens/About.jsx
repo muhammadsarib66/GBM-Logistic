@@ -13,7 +13,7 @@ const About = () => {
   return (
     <section className="p-4 w-full h-fit grid grid-cols-1 md:grid-cols-2 place-items-center">
       <div data-aos="fade-up" className="relative flex p-2 w-[100%] pt-20  md:justify-center md:items-center h-screen">
-        <div className=" absolute top-28 right-40 md:right-28 sm:right-[4rem]     ">
+        <div className=" absolute top-28 right-0 lg:right-40 md:right-28 sm:right-[4rem]     ">
           <img
             src={aboutImg2}
             alt="aboutImg2"
@@ -21,7 +21,7 @@ const About = () => {
           />
         </div>
         <div className="absolute 
-                
+                              
        
     ">
           <img
